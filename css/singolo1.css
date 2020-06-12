@@ -17,12 +17,37 @@ header {
 }
 
 header h1 {
-  margin: auto 40px;
+  margin: 0 0 0 40px;
   line-height: 4.48;
   font-family: 'Lato Regular', sans-serif;
   font-weight: 600;
   font-size: 25px;
   letter-spacing: -0.4px;
+}
+
+header h1 span {
+  color: #f06c64;
+}
+
+header nav {
+  margin: auto 0;
+  font-family: 'Lato Regular', sans-serif;
+}
+
+header nav ul {
+  margin: 21px 0 0 453px;
+  display: flex;
+  font-size: 12px;
+  letter-spacing: -0.4px;
+}
+
+header nav ul li {
+  flex-direction: column;
+  margin: 0 32px 0 0
+}
+
+header nav ul li:not(:first-child) {
+  /*TODO: add gray dot*/
 }
 
 /*services section*/
