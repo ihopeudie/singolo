@@ -127,11 +127,13 @@ div.adv-card-text-holder h3 {
     font-family: "Lato Black", serif;
     font-size: 18px;
     text-transform: capitalize;
-    line-height: 24px;
+    line-height: 27px;
+    text-align: justify;
+    letter-spacing: -0.1px;
 }
 
 div.adv-card-text-holder p {
-    margin-top: 7px;
+    margin-top: 5px;
     font-size: 12px;
     font-family: "Lato Regular", serif;
     text-align: justify;
@@ -139,8 +141,21 @@ div.adv-card-text-holder p {
     font-weight: 300;
     height: 54px;
     width: 220px;
-    hyphens: auto;
 }
+
+.bulb .icon-holder,
+.chat .icon-holder,
+.heart .icon-holder,
+.star .icon-holder {
+    margin-left: 0;
+}
+
+.heart h3,
+.star h3 {
+    margin-top: -1px;
+    margin-left: 1px;
+}
+
 
 .bulb svg {
     margin-top: 12px;
